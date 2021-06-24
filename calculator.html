@@ -1,0 +1,62 @@
+
+dell@DESKTOP-R8MB0MT MINGW64 ~
+$ git config --global user.name "kumarabhishek7885"
+
+dell@DESKTOP-R8MB0MT MINGW64 ~
+$ git config --global user.email "kumar.abhishek7885@gmail.com"
+
+dell@DESKTOP-R8MB0MT MINGW64 ~
+$ git config --global user.name
+kumarabhishek7885
+
+dell@DESKTOP-R8MB0MT MINGW64 ~
+$ git config --global user.email
+kumar.abhishek7885@gmail.com
+
+dell@DESKTOP-R8MB0MT MINGW64 ~
+$ git clone https://github.com/kumarabhishek7885/ProjectGitrepo.git
+Cloning into 'ProjectGitrepo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+dell@DESKTOP-R8MB0MT MINGW64 ~
+$ cd ProjectGitrepo
+
+dell@DESKTOP-R8MB0MT MINGW64 ~/ProjectGitrepo (main)
+$ touch calculator.html
+
+dell@DESKTOP-R8MB0MT MINGW64 ~/ProjectGitrepo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        calculator.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dell@DESKTOP-R8MB0MT MINGW64 ~/ProjectGitrepo (main)
+$ git add calculator.html
+
+dell@DESKTOP-R8MB0MT MINGW64 ~/ProjectGitrepo (main)
+$ git commit -m "first commit calculator file added"
+[main b519abd] first commit calculator file added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 calculator.html
+
+dell@DESKTOP-R8MB0MT MINGW64 ~/ProjectGitrepo (main)
+$ git remote
+origin
+
+dell@DESKTOP-R8MB0MT MINGW64 ~/ProjectGitrepo (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kumarabhishek7885/ProjectGitrepo.git
